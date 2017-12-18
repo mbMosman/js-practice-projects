@@ -2,8 +2,12 @@ button {
     margin-right: 1em;
 }
 
+#out-blocks {
+    margin-top: 1em;
+}
+
 .block {
-    padding: 1em;
+    padding: 0.5em;
     margin-bottom: 1em;
 }
 
