@@ -3,7 +3,7 @@ Create an application that will add, swap, and delete color blocks from the web 
 
 ## Details
 
-1. Create a <button> element on the DOM, you may do this in jQuery, or write it directly in the HTML code. Have the button text read "Generate".
+1. Create a <button> element on the DOM, you may do this in jQuery, or write it directly in the HTML code. Have the button text read "Add".
 
 2. Using jQuery, append a <div> element when you click the button. 
 
