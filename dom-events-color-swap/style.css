@@ -1,0 +1,16 @@
+button {
+    margin-right: 1em;
+}
+
+.block {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
