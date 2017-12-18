@@ -1,5 +1,5 @@
 # Working with DOM & Events - Color Swap
-Create an application that records employee salaries and adds salaries up to report monthly costs. 
+Create an application that will add, swap, and delete color blocks from the web page. 
 
 ## Details
 
