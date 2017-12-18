@@ -1,7 +1,7 @@
 # Salary Calculator
 Create an application that records employee salaries and adds salaries up to report monthly costs. 
 
-## Assignment
+## Details
 
 The application should have an input form that collects _employee first name, last name, ID number, job title, annual salary_. 
 Add styling to the page so that it looks good.
