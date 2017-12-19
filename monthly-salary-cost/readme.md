@@ -1,10 +1,9 @@
-# Company Salary Calculator
+# Monthly Salary Costs
 Create an application that records employee salaries and adds salaries up to report monthly costs. 
 
 ## Details
 
 Add employee salaries:
-
 - Create an input form with a 'Submit' button to collect _employee first name, last name, ID number, job title, annual salary_. 
 
 - When the form is submitted: 
@@ -16,7 +15,6 @@ Show monthly salary costs:
 -  Using the stored information, calculate *monthly* salary cost and append this to the to DOM.
 
 Delete employees:
-
 - Add a delete button (for each employee) to remove the employee. 
 
 - When the delete button is clicked:
