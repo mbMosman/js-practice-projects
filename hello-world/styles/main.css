@@ -1,0 +1,42 @@
+body {
+  background-color: #F4E4D8;
+  color: #777;
+  margin: 0;
+}
+
+main {
+  margin: auto;
+  width: 80%;
+}
+
+h1 {
+  background-color: #99A9A5;
+  color: #eee;
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 0.25em;
+  text-align: center;
+  width: 100%;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #896978
+}
+
+.center {
+  text-align: center;
+}
+
+section:nth-of-type(odd) {
+  background-color: #FFD4CA;
+}
+
+section:nth-of-type(even) {
+  background-color: #C8D6CC;
+}
+
+section {
+  border-radius: 0.25em;
+  margin-bottom: 2em;
+  padding: 1.5em;
+}
