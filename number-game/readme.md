@@ -18,7 +18,7 @@ Create a number guessing game.  The "game" will choose a number, and the player 
   - Write a script that will:
     1. Choose a number
     2. Continue to prompt the player to guess a number until they choose the correct number
-    3. When the player guess is incorrect, use an alert to tell them that was not the number.
+    3. When the player guess is incorrect, use an alert to tell them that was not correct and to either guess higher or lower next time.
     4. When the player guesses correctly, use an alert to tell them they have won the game.
 
 4. Test
