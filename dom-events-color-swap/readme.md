@@ -1,5 +1,5 @@
 # Working with DOM & Events - Color Swap
-Create an application that will add, swap, and delete color blocks from the web page. 
+Create an application that will add, swap, and delete color blocks from the web page.
 
 ## Details
 
