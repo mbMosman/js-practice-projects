@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Number Game</title>
     <link rel="stylesheet" href="styles/main.css">
-    <script src="scripts/game.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="scripts/game-extras.js" charset="utf-8"></script>
   </head>
   <body>
     <header>
@@ -12,9 +13,28 @@
     </header>
     <main>
       <section>
-        <p class="center">
-          I'm thinking of a number from 1-100. Try to guess it!
+        <form id="form-guess" class="center">
+          <p class="center">
+            I'm thinking of a number from 1-100. Try to guess it!
+          </p>
+          <label>Guess a number: </label><input type="number" id="in-guess"/>
+          <button type="submit" id="btn-guess">Submit</button>
+        </form>
+        <form id="form-reset" class="center hide">
+          <p>
+            Awesome!  You guessed my number.
+          </p>
+          <button id="btn-reset">Click to Play Again</button>
+        </form>
+      </section>
+      <section class="center">
+        <h2>Messages</h2>
+        <p>
+          You have won <span id="win-count">0</span> time(s).
         </p>
+        <div id="output">
+
+        </div>
       </section>
     </main>
   </body>
