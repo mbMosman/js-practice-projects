@@ -15,11 +15,12 @@ Create a number guessing game.  The "game" will choose a number, and the player 
 3. Add a JavaScript file and use a `script` element to add the JS file to your HTML page. In the JS file:
   - define a function that will use a prompt to get a number from the player. Validate the number is between 1 and 100, asking again if it is not. When you have a good number, return it.
   - define a function that will choose and return a number.  For now, have it choose 42.
-  - Write a script that will:
+  - Write a function to play the game.  This function should:
     1. Choose a number
     2. Continue to prompt the player to guess a number until they choose the correct number
     3. When the player guess is incorrect, use an alert to tell them that was not correct and to either guess higher or lower next time.
     4. When the player guesses correctly, use an alert to tell them they have won the game.
+  - When the DOM is ready, call the function to play the game.
 
 4. Test
   - Open your page in the browser.  
@@ -36,7 +37,7 @@ Create a number guessing game.  The "game" will choose a number, and the player 
   - When the guess is correct, have the message appear in a different color such as green.
 
 4. Add a reset button that will clear the page and select a new number for the player to guess.
+  - Hide the reset button until the game has been won.  The reset button should not be visible while the player is guessing.
+  - Once the game is won, hide the guess input form until the reset button has been pressed.
 
-5. Hide the reset button until the game has been won.  The reset button should not be visible while the player is guessing.
-
-6. Once the game is won, hide the guess input form until the reset button has been pressed.
+5. Add a message with a win counter to show how many times the player has won the game.
