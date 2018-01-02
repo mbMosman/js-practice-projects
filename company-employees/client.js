@@ -58,7 +58,7 @@ function addEmployee(event) {
 }
 
 function changeMonthlyCostBy(amt) {
-  monthlySalaryCost += Math.round((amt / 12), 2);
+  monthlySalaryCost += amt / 12;
   let formattedCost = monthlySalaryCost.toLocaleString('en-US', {
     style: 'currency',
     currency: 'USD'
