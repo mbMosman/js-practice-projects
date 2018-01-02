@@ -8,27 +8,47 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
-  
+
   </head>
   <body>
-  
-    <h1>Salary Calculator</h1>
 
-    <label>First Name:</label><input type="text" id="in-first" placeholder="first name"><br>
-    <label>Last Name:</label><input type="text" id="in-last" placeholder="last name"><br>
-    <label>Job Title:</label><input type="text" id="in-title" placeholder="job title"><br>    
-    <label>Salary:</label><input type="number" id="in-salary" placeholder="salary"><br>
-    <label>Employee Id:</label><input type="text" id="in-empid" placeholder="employee id"><br>
-    <button type="submit" id="btn-submit">Submit</button>
 
-    <div id="out-salaries">
-        
-    </div>
+    <header>
+      <h1>Monthly Salary Calculator</h1>
+    </header>
 
-    <div id="out-avg-salary"></div>
+    <main>
+      <section>
+        <h2>Add Employee Salary Information</h2>
+        <form id="in-info">
+          <label>First Name:</label><input type="text" id="in-first" placeholder="first name"><br>
+          <label>Last Name:</label><input type="text" id="in-last" placeholder="last name"><br>
+          <label>Job Title:</label><input type="text" id="in-title" placeholder="job title"><br>
+          <label>Salary:</label><input type="number" id="in-salary" placeholder="salary"><br>
+          <label>Employee Id:</label><input type="text" id="in-empid" placeholder="employee id"><br>
+          <button type="submit" id="btn-submit">Submit</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Current Salary Information</h2>
+        <div id="out-monthly-salary"></div>
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th><th>Name</th><th>Title</th><th>Salary</th><th>&nbsp;</th>
+              </tr>
+            </thead>
+            <tbody id="out-salaries">
+
+            </tbody>
+          </table>
+      </section>
+
+    </main>
 
     <!-- jQuery from CDN -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="client.js"></script>    
+    <script src="client.js"></script>
 </body>
 </html>
