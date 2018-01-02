@@ -1,0 +1,90 @@
+body {
+  background-color: #F4E4D8;
+  color: #777;
+  margin: 0;
+}
+
+main {
+  margin: auto;
+  width: 80%;
+}
+
+h1 {
+  background-color: #99A9A5;
+  color: #eee;
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 0.25em;
+  text-align: center;
+  text-shadow: 2px 2px 3px #666;
+  width: 100%;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #896978
+}
+
+.center {
+  text-align: center;
+}
+
+section:nth-of-type(odd) {
+  background-color: #FFD4CA;
+}
+
+section:nth-of-type(even) {
+  background-color: #CDD9D0;
+}
+
+section {
+  border-radius: 0.25em;
+  box-shadow: 3px 4px 5px #D1B7A5;
+  margin-bottom: 2em;
+  padding: 1.5em;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding: 5px;
+}
+
+input {
+    margin: 5px 0;
+    display: inline-block;
+}
+
+button {
+  background-color: #FFF8F3;
+  border-radius: 1em;
+  box-shadow: 1px 2px 3px #D1B7A5;
+  padding: 0.5em;
+}
+
+#btn-submit {
+    margin-top: 5px;
+    margin-left: 110px;
+}
+
+table {
+  width: 100%;
+  background-color: #F4E4D8;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.5em;
+  text-align: left;
+}
+
+
+tbody tr:nth-of-type(odd) {
+  background-color: #FFF8F3;
+}
+
+
+thead tr {
+  background-color: #896978;
+  color: #222222;
+}

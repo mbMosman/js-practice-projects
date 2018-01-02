@@ -6,9 +6,12 @@
 // --------------
 // Make a function called "calculateMoonWeight" that:
 //   - takes a single input parameter - weight on earth
-//   - returns the equivalent weight on the moon (17% of earth weight)
+//   - calculates the equivalent weight on the moon (17% of earth weight)
+//   - returns the weight on the moon, rounded to 2 decimal places
 
-
+function calculateMoonWeight(earthWeight) {
+  return Math.round((earthWeight * 0.17), 2);
+}
 
 // Part 2
 // --------------
@@ -18,10 +21,13 @@ document.getElementById('btn-moon-weight').addEventListener('click', function ()
   console.log('Calculating Moon Weight');
 
   // 1. Prompt to have a weight entered.
+  let weight = prompt('Please enter your weight: ');
 
   // 2. Call your calculateMoonWeight function to get the moon weight.
+  let moonWeight = calculateMoonWeight(weight);
 
   // 3. Show an alert with the moon weight.
+  alert(`Your weight on the moon would be ${moonWeight}`);
 
 });
 //--------------------------------------------------------------------
