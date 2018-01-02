@@ -6,14 +6,15 @@
 // --------------
 // Make a function called "calculateMoonWeight" that:
 //   - takes a single input parameter - weight on earth
-//   - returns the equivalent weight on the moon (17% of earth weight)
-
+//   - calculates the equivalent weight on the moon (17% of earth weight)
+//   - returns the weight on the moon, rounded to 2 decimal places
 
 
 // Part 2
 // --------------
 // Test your function.  The code provided runs the code when the button is clicked.
 // Fill in the code after the comments below.
+console.log(document.getElementById('btn-moon-weight'));
 document.getElementById('btn-moon-weight').addEventListener('click', function () {
   console.log('Calculating Moon Weight');
 
