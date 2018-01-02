@@ -119,5 +119,6 @@ document.getElementById('btn-name-fun').addEventListener('click', function () {
   // 6. Use your function from Part 3 to identify how many times each letter appears in the name.
   //    For every letter that occurs more than once, show an alert to say the letter and
   //    how many times it was found in the name.
+  //    If no letter occurs more than once, say that there are no duplicate letters.
 
 });
