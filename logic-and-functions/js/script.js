@@ -17,6 +17,7 @@ function calculateMoonWeight(earthWeight) {
 // --------------
 // Test your function.  The code provided runs the code when the button is clicked.
 // Fill in the code after the comments below.
+console.log(document.getElementById('btn-moon-weight'));
 document.getElementById('btn-moon-weight').addEventListener('click', function () {
   console.log('Calculating Moon Weight');
 
