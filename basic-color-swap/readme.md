@@ -3,7 +3,7 @@ Create an application that will add, swap, and delete color blocks from the web 
 
 ## Requirements
 
-1. Create a `<button>` element. You may do this in JavaScript, or write it directly in the HTML code. Have the button text read "Add Color Block".
+1. Create a `button` element. You may do this in JavaScript, or write it directly in the HTML code. Have the button text read "Add Color Block".
 
 2. Using JavaScript, append a `div` element when you click the button. This `div` should contain:
 
