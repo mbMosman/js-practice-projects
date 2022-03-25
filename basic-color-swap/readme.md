@@ -10,7 +10,7 @@ Create an application that will add, swap, and delete color blocks from the web 
  - A `<span>` that shows how many times the "Add" button was clicked. 
  - A "Delete" `<button>` which should remove its parent `div` from the DOM when clicked.
 
-3. Using a CSS file, give all the `<div>` elements created must have a `margin` of `1rem` and a `height` of `2rem`. Each block should also initially have a Red background-color.
+3. Add a CSS file. All the `<div>` elements created must have a `margin` of `1rem` and a `height` of `2rem`. They must also initially have a red background-color.
 
 4. Clicking on the block should toggle the background-color of the `<div>` between Red and Green.
     - A red block will become green on click.
