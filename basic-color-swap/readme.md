@@ -18,3 +18,7 @@ Create an application that will add, swap, and delete color blocks from the web 
 4. Clicking on a `div` element must toggle the background-color between Red and Green.
     - A red block will become green on click.
     - A green block will become red on click.
+
+## Challenge 
+
+Use only *one* event listener to handle both the background color toggle AND the delete for all of the `div` on the page.
