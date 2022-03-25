@@ -8,4 +8,4 @@ A collection of small project to practice JavaScript.
 - [Logic & Functions](https://github.com/mbMosman/js-practice-projects/tree/master/logic-and-functions)
 - [Number Game](https://github.com/mbMosman/js-practice-projects/tree/master/number-game)
 - [Basic Color Swap](https://github.com/mbMosman/js-practice-projects/tree/master/basic-color-swap)
-- [Company Employees](https://github.com/mbMosman/js-practice-projects/tree/master/company-employees)
+- [Little Library](https://github.com/mbMosman/js-practice-projects/tree/master/little-library)
